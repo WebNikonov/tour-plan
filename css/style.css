@@ -67,6 +67,9 @@
   background-color: #EC1F46;
   cursor: pointer;
 }
+.search__icon {
+  width: auto;
+}
 
 .user {
   display: flex;
