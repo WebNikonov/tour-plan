@@ -1,5 +1,5 @@
 # tour-plan
 Hi, it's my work on course by Artem islamov "Web-Start". 
-My name is Dmitriy, i'm a Frontend 
-First commit in 13th may 16:30 pm
+In this work using: HTML5, css(Sass, Scss), JS. 
+Adaptive for mobile displays and Desktop.
 
