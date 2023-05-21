@@ -497,6 +497,11 @@ template {
   line-height: 18px;
 }
 
+.swiper {
+  width: 720px;
+  height: 450px;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
