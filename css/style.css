@@ -529,6 +529,11 @@ template {
   display: flex;
   justify-content: space-between;
 }
+.hotel-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .offer {
   padding: 4px 9px;
@@ -631,6 +636,7 @@ template {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 9px;
 }
 .booking__price {
   display: flex;
@@ -659,12 +665,32 @@ template {
 .booking__room {
   margin-top: 4px;
 }
+.booking__button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  width: 100%;
+  min-height: 45px;
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
 
 .call-center {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 17px;
 }
 
 .slide-image {
   width: 100%;
+}
+
+.map {
+  width: 347px;
+  height: 213px;
+  background-color: #123123;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
