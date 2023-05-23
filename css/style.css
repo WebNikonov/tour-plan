@@ -631,6 +631,73 @@ template {
   border-radius: 10px;
 }
 
+.newslatter {
+  position: relative;
+  padding: 98px 0 87px 0;
+  background-image: url("/img/newslatter-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.newslatter:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 34, 61, 0.8);
+}
+.newslatter__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 731px;
+  margin: auto;
+}
+.newslatter-title {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+}
+.newslatter-title__strong {
+  display: block;
+  font-style: SemiBold;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.subscribe {
+  position: relative;
+  width: 355px;
+  min-height: 55px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.subscribe__input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-left: 33px;
+  padding-right: 75px;
+  border: none;
+}
+.subscribe__button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 65px;
+  height: 100%;
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  border: none;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
