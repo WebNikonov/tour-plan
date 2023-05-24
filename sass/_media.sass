@@ -90,6 +90,14 @@
             align-items: center
             min-height: 450px
 
+    .reviews
+        &__title
+            font-size: 30px
+            line-height: 38px
+        &-slider
+            &__item
+                max-width: 579px
+
     .swiper
         &-wrapper
             height: auto
@@ -123,6 +131,26 @@
                 line-height: 38px
         &__title
             padding-bottom: 37px
+    .reviews
+        &__title
+            font-size: 18px
+            line-height: 23px
+        &-slider
+            &__button
+                top: 45px
+                &--prev
+                    left: 50%
+                    transform: translate(-50%, 0)
+                    margin-left: -65px
+                &--next
+                   right: 50%
+                   transform: translate(50%, 0)
+                   margin-right: -65px
+            &__item
+                max-width: 281px
+                padding: 0 30px 30px
+                &::after, &::before
+                    display: none
     .subscribe
         width: 280px
 
