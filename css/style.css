@@ -515,6 +515,9 @@ template {
 .hotel-swiper-slide {
   position: relative;
 }
+.hotel-swiper__image {
+  background-size: cover;
+}
 
 .offer {
   padding: 4px 9px;
@@ -634,10 +637,6 @@ template {
 .newsletter {
   position: relative;
   padding: 98px 0 87px 0;
-  background-image: url("/img/newslatter-background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .newsletter:before {
   content: "";
@@ -774,6 +773,7 @@ template {
   line-height: 160%;
   text-align: justify;
   max-width: 537px;
+  justify-content: flex-start;
 }
 .reviews-slider__profile {
   display: flex;
@@ -799,6 +799,7 @@ template {
   margin-bottom: 10px;
 }
 .reviews-slider__date {
+  text-align: center;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
