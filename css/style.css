@@ -879,6 +879,165 @@ template {
   cursor: pointer;
 }
 
+.other-packages {
+  padding: 40px 0 70px 0;
+}
+.other-packages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(2, 500px);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  padding-top: 65px;
+}
+.other-packages__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.grid-card {
+  position: relative;
+  border-radius: 8px;
+  background-color: #0A223D;
+  overflow: hidden;
+}
+.grid-card__blue-haven {
+  grid-row: 1/2;
+  grid-column: 1/3;
+  background-position: center;
+  display: flex;
+  color: #FFFFFF;
+}
+.grid-card__belle-mare, .grid-card__luxury-palace, .grid-card__white-palace, .grid-card__hotel-five-star {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.grid-card__offer {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  width: 95px;
+  height: 30px;
+  padding: 4px 9px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  border-radius: 3px;
+}
+.grid-card__offer-second {
+  width: 60px;
+  height: 18px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+}
+.grid-card__room {
+  padding-bottom: 36px;
+}
+.grid-card__room-second {
+  padding-bottom: 24px;
+}
+.grid-card__template {
+  color: #FFFFFF;
+  padding: 30px 21px 25px 32px;
+}
+.grid-card__template-first {
+  padding: 46px 21px 30px 44px;
+  width: 366px;
+  color: #FFFFFF;
+}
+.grid-card__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 27px;
+}
+.grid-card__text {
+  margin-bottom: 11px;
+}
+.grid-card__text:nth-child(3) {
+  margin-bottom: 0;
+}
+.grid-card__text-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160.6%;
+  margin: 0;
+  padding-bottom: 34px;
+}
+.grid-card__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+.grid-card__price {
+  display: flex;
+  flex-direction: column;
+}
+.grid-card__price-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.grid-card__start {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
+.grid-card__pricetag {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
+.grid-card__per-room {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.grid-card__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.grid-card__button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  width: 120px;
+  min-height: 40px;
+  background-color: #EC1F46;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.grid-card__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 350px;
+  height: 250px;
+}
+
+.image-blue-haven {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 366px;
+  height: 100%;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
