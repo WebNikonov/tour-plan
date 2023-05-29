@@ -20,6 +20,10 @@
     height: 255px
     border-radius: 6px
     overflow: hidden
+    transition: 1s
+    transition: 1s
+    &:hover
+        transform: scale(1.2)
     &::before
         content: ''
         position: absolute
@@ -29,6 +33,8 @@
         bottom: 0
         background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%)
         z-index: -1
+        
+    
     &__image
         position: absolute
         -o-object-fit: cover
@@ -40,6 +46,7 @@
         width: 100%
         height: 100%
         z-index: -2
+       
     &__title
         // position: relative
         margin-top: auto

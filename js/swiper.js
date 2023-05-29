@@ -17,3 +17,11 @@ const reviewsSwiper = new Swiper('.reviews-slider', {
         prevEl: '.reviews-slider__button--prev',
     },
 });
+
+
+let menuButton = document.querySelector('.menu-button')
+
+menuButton.addEventListener('click', function( ){
+    console.log('click no button')
+    document.querySelector('.navbar-bottom').classList.toggle('navbar-bottom--visible')
+})
